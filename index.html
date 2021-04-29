@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="section">
+           <div class="thumb__cntr">
+            <div class="prevBtn__cntr">
+                <button id="prevBtn"></button>
+            </div>
+                <div class="section__slider" id="thumb__wrap">
+                    <div class="slider__item">
+                        <img class="slides" src="images/01.svg" alt="">
+                    </div>
+                    <div class="slider__item">
+                        <img class="slides" src="images/02.svg" alt="">
+                    </div>
+                    <div class="slider__item">
+                        <img class="slides" src="images/03.svg" alt="">
+                    </div>
+                    <div class="slider__item">
+                        <img class="slides" src="images/04.svg" alt="">
+                    </div>
+                    <div class="slider__item">
+                        <img class="slides" src="images/03.svg" alt="">
+                    </div>
+                    <div class="slider__item">
+                        <img class="slides" src="images/02.svg" alt="">
+                    </div>
+                    <div class="slider__item">
+                        <img class="slides" src="images/01.svg" alt="">
+                    </div>
+                </div> <!--/section__slider-->
+            <div class="nextBtn__cntr">
+                <button id="nextBtn"></button>
+            </div>
+        </div>
+
+            <div class="section__product">
+                <div class="product__photo">
+                    <img id="featured" src="/images/02.svg" alt="">
+                </div>
+            </div>
+            <div class="section__info">
+                <div class="info__block">
+                    <div class="info__block-title">
+                        <h3>100% органический 10 лет корень корейского женьшеня красный Panax улучшить иммунную</h3>
+                    </div>
+                    <div class="info__block-rate">
+                        <div class="rate_star">
+                            <img src="images/star.svg" alt="">
+                            <img src="images/star.svg" alt="">
+                            <img src="images/star.svg" alt="">
+                            <img src="images/half-star.svg" alt="">
+                            <img src="images/empty-star.svg" alt="">
+                            <div class="rate_star-sum">243</div>
+                        </div>
+                        <div class="order_sum">Количество заказов: <span>1</span></div>
+                    </div>
+                </div>
+                <div class="info__block">
+                    <div class="info__price">
+                        <h3>15 000 000 сум</h3>
+                        <div class="real__price">
+                            <h6>20 000 000 сум</h6>
+                            <div class="sale">-25%</div>
+                        </div>
+                    </div>
+                    <div class="info__payment-method">
+                        <h6>Методы оплаты:</h6>
+                        <div class="payment-method__item">
+                            <img src="images/Payme.svg" alt="">
+                        </div>
+                        <div class="payment-method__item">
+                            <img src="images/Humo.svg" alt="">
+                        </div>
+                        <div class="payment-method__item">
+                            <img src="images/Click.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="info__delivery-method">
+                        <h6>Методы доставки:</h6>
+                        <div class="delivery-method__item">
+                            <div class="delivery__method-icon">
+                                <img src="images/delivery.svg" alt="">
+                            </div>
+                            <h6>Доставка продавца</h6>
+                        </div>
+                        <div class="delivery-method__item">
+                            <div class="delivery__method-icon">
+                                <img src="images/ad-product.svg" alt="">
+                            </div>
+                            <h6>Самовывоз</h6>
+                        </div>
+                    </div>
+                </div> <!--/info__block-->
+                <div class="info__block">
+                    <h6 class="total">Количество</h6>
+                    <div class="increment_decrement">
+                        <button class="btn btn__minus" type="button">
+                            <img src="images/minus-icon.svg" alt="">                               
+                        </button>
+                        <input class="total__input" type="number" placeholder="1">
+                        <button class="btn btn__plus" type="button">
+                            <img src="images/plus.svg" alt="">
+                        </button>
+                        <div class="current">
+                            <img src="images/checked-icon.svg" alt="">
+                            <div class="current__text">в наличии <span>1245</span>  шт.</div>        
+                        </div>
+                    </div>
+                    <div class="purchase">
+                        <div class="pur__btn buy">Купить в один клик</div>
+                        <div class="pur__btn contact">Связаться с продавцом</div>
+                    </div>
+                </div>
+
+                <div class="delivery__detail">* Стоимость доставки заказов до 40 000 сум  - договорная
+                </div>
+                <div class="delivery__detail">** Бесплатная доставка при заказе от 40 000 сум</div>
+            </div> <!--/section__info-->
+        </div> <!--/section-->
+    </div>
+
+    <script src="/app.js"></script>
+</body>
+</html>
